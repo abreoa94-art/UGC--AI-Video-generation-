@@ -278,7 +278,6 @@ export const createVideo = async (req: Request, res: Response) => {
             aspectRatio: project?.aspectRatio || '9:16',
             numberOfVideos: 1,
             resolution: '720p',
-            duration: project.targetLength || 30,
         }
     })
 
